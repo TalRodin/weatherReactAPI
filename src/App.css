@@ -21,7 +21,7 @@ body {
     align-items: center;
     height: 80vh;
     width:80vw;
-    padding: 5vh 5vw;
+    /* padding: 5vh 5vw; */
     overflow: hidden;
     /* background-color: #495a74; */
     color: transparent;
@@ -34,13 +34,13 @@ body {
 
 .title-container {
   height: 90vh;
-  /* background: url("img/bg.jpg") center center no-repeat; */
+  background: url("https://images.unsplash.com/photo-1547927586-48cccbbb7149?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1649&q=80") center center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #515151;
+  color: #eee;
 }
 
 .title-container__title {
@@ -68,7 +68,7 @@ body {
 input[type="text"] {
   background-color: transparent;
   border: 0;
-  border-bottom: solid 1px #f1555a;
+  border-bottom: solid 1px #2a3b47;
   width: 30%;
   padding-bottom: 4px;
   color: #fff !important;
@@ -84,7 +84,7 @@ input[type="text"] {
 }
 
 input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 30px #515151 inset;
+    -webkit-box-shadow: 0 0 0 30px #53646e inset;
     -webkit-text-fill-color: #fff !important;
 }
 
@@ -97,7 +97,7 @@ button {
   letter-spacing: 1px;
   font-size: 15px;
   cursor: pointer;
-  background-color: #f1555a;
+  background-color: #2a3b47;
   color: #fff;
   font-weight: 100;
 }
@@ -114,7 +114,7 @@ button:active {
 }
 
 .weather__key {
-  color: #f1555a;
+  color: #2a3b47;
   border-bottom: solid 2px rgba(255,255,255,0.06);
   padding: 20px 0 20px 0;
   font-weight: 400;
